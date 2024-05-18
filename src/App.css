@@ -1,0 +1,143 @@
+.heading{
+  background-color: chartreuse;
+
+}
+ul{
+  padding-right: 0px;
+}
+li {
+  display: inline;
+  padding-right: 20px;
+  font-size: large;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(253, 253, 253);
+  padding-right: 30px;
+}
+
+a:hover {
+  color: #090808;
+}
+h2{
+  
+  color:aliceblue;
+  
+}
+h1{
+  text-align: center;
+}
+button {
+  background-color: rgb(241, 161, 32);
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+form {
+  max-width: 300px;
+  margin: auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  
+  
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+input[type="submit"] {
+  width: 100%;
+  background-color: #12b1e7;
+  color: white;
+  padding: 10px 0;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+.image{
+  width: 100px;
+  height:100px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 300px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  background-color: rgba(242, 115, 115, 0.808);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  
+} 
+
+.card h3 {
+  margin-top: 10px;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color:pink;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width:100%;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: grey;
+  color: white;
+}
+tr:hover {
+  background-color: #f0f0f0;
+}
